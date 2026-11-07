@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(250, 240, 240);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.card {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 6px solid rgb(164, 235, 200);
+  width: 680px;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 360px;
+  height: 270px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+  font-family: verdana;
+  color: rgb(48, 39, 176);
+}
+
+.btn {
+  background-color: rgb(255, 166, 0);
+  display: inline-block;
+  padding: 5px 15px;
+  border: 2px solid rgb(100, 22, 22);
+  color: rgb(255, 0, 0);
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
