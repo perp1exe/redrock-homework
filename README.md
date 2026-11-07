@@ -1,2 +1,2 @@
 # redrock-homework
-as name
+as named
