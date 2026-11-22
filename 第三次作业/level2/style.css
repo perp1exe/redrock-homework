@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 240, 240);
+}
+
+.card {
+    width: 300px;
+    padding: 10px;
+    border: 3px solid rgb(136, 212, 235);
+    background-color: rgb(68, 158, 236);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover {
+    background-color: rgb(0, 94, 255);
+    transform: translateY(-30px) scale(1.1);
+    box-shadow: 0 -3px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.card p {
+    color: white;
+    text-align: center;
+}
+
+.card button {
+    font-size: 16px;
+    transition: all 0.5s ease;
+    background-color: white;
+    border-radius: 12px;
+    width: 65px;
+    padding: 5px 0;
+    cursor: pointer;
+    border:none;
+}
+
+.card button:hover {
+    transform: scale(0.9);
+    box-shadow: -1px -1px 20px rgba(0, 0, 0, 0.2);
+}
